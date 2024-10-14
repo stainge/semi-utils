@@ -10,7 +10,7 @@ base:
   quality: 100
 global:
   focal_length:
-    use_equivalent_focal_length: false
+    use_equivalent_focal_length: true
   padding_with_original_ratio:
     enable: false
   shadow:
@@ -39,7 +39,7 @@ layout:
       name: Param
   logo_enable: false
   logo_position: left
-  type: watermark_right_logo
+  type: watermark_left_logo
 logo:
   default:
     id: ''
